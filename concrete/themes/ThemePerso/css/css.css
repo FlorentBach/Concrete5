@@ -1,0 +1,145 @@
+.background {
+/* background-image:url("../Images/font.png");
+background-repeat:repeat-x; */
+background-color:#FFF;
+margin-top:-8px;
+margin-left:-8px;
+
+margin-right:-8px;
+height : 140px;
+background: rgb(234,234,234);
+background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 10%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,234,234,1)), color-stop(10%,rgba(255,255,255,1))); 
+background: -webkit-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 10%); 
+background: -o-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 10%); 
+background: -ms-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 10%); 
+background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 10%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=0 );
+}
+.bandeau
+{
+margin-left:-8px;
+margin-right:-8px;
+height : 335px;
+background-color :#333333;
+margin-top:60px;
+
+}
+.container {
+width:960px;
+margin: 0 auto;
+
+}
+.background h3
+{
+font:oblique 9px Arial, Helvetica, sans-serif;
+}
+.background .sstitre
+{
+font:oblique 12px Arial, Helvetica, sans-serif;
+color:grey; 
+}
+
+.images2
+{
+margin-top:-300px;
+border:1px solid #9FC6FF;
+border-radius: 10px;
+box-shadow: 4px 4px 0px grey; 
+
+}
+.footer{
+margin-left:-8px;
+margin-bottom:-8px;
+margin-right:-8px;
+background-color:#333333;
+height : 175px;
+background-repeat:repeat-x;
+border-top: solid 10px #4c4c4c;
+}
+
+.body{
+height : 945px;
+}
+.titre{
+text-align:center;
+font:oblique 22px Arial, Helvetica, sans-serif;
+}
+.menuhaut{
+margin-top:50px;
+margin-left:100px;
+
+}
+#ccm-highlighter li
+{
+
+}
+.article b
+{
+font-size:23px;
+color:#68aeba;
+}
+
+.article h3
+{
+color:grey;
+font-size:12px;
+}
+.imageart .ccm-image-block
+{
+border:1px solid #9FC6FF;
+border-radius: 10px;
+box-shadow: 4px 4px 4px grey; 
+}
+
+.texteart
+{
+
+width : 285px;
+font-size:13px;
+color:grey;
+
+}
+.images
+{
+
+width  : 950px;
+margin-top:-275px;
+margin-left:225px;
+
+}
+.boutonart
+{
+color : #68aeba;
+font-size:20px;
+padding-top:20px;
+text-align:center;
+width : 185px;
+height : 50px;
+background: grey;
+
+border:1px solid black;
+border-radius: 10px;
+}
+
+
+#block {
+	padding-top :20px;
+	width : 180px;
+	height : 25px;
+    background:black;
+    color:#FFF;
+    padding:10px;
+    position:absolute;
+    border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+}
+
+#block .arrow {
+    width:0; height:0;
+    border:5px solid transparent;
+    border-top:none;
+    border-bottom:5px solid black;
+    position:absolute;
+    top:-5px;
+    left:20px;
+}
